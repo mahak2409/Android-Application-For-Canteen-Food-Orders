@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="50dp">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="200dp"
+            android:layout_height="102dp"
+            android:layout_margin="20dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/bike" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_horizontal"
+            android:text="Insta-Eats"
+            android:textSize="55sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:textSize="20sp"
+
+            android:fontFamily="cursive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="Vendor" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:fontFamily="cursive"
+            android:gravity="left"
+            android:text="Login"
+            android:textSize="20sp"
+
+            android:textStyle="italic" />
+
+
+        <Button
+            android:id="@+id/signInButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white_gray"
+            android:textColor="@color/black"
+
+            android:fontFamily="sans-serif-smallcaps"
+            android:drawableLeft="@drawable/googleg_standard_color_18"
+            android:text="Sign in With Google" />
+
+
+
+        <EditText
+            android:id="@+id/editTextTextUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="25dp"
+            android:hint="Username"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:padding="10dp"
+
+            android:fontFamily="sans-serif-thin"
+            android:drawableRight="@drawable/ic_baseline_person_outline_24_black"
+
+            android:background="#99ffffff"
+
+            />
+
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+
+            android:padding="10dp"
+
+            android:hint="Password"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+
+            android:fontFamily="sans-serif-thin"
+            android:drawableRight="@drawable/ic_baseline_info_24"
+
+            android:background="#99ffffff"
+            />
+
+
+        <TextView
+            android:id="@+id/createAcountTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Don't have account? Create one"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:gravity="end"/>
+
+        <Button
+
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:text="Login"
+
+            android:fontFamily="sans-serif-smallcaps"
+            android:textStyle="bold"
+            />
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

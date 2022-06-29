@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "269956787185",
+    "project_id": "foodchef-10dc1",
+    "storage_bucket": "foodchef-10dc1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269956787185:android:ec947abc05cb9bae3ab250",
+        "android_client_info": {
+          "package_name": "com.example.vendor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269956787185-r7um6etoa1fstrurp7rhn6mv9su2gp0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vendor",
+            "certificate_hash": "59dae031bc7d45c60b35fc9d6214dc9839114687"
+          }
+        },
+        {
+          "client_id": "269956787185-j2apu6g37uqvnk1ao8qotrs44qv034em.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkELofKIGBFmPuDTeUysDrDEySND7URxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269956787185-j2apu6g37uqvnk1ao8qotrs44qv034em.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

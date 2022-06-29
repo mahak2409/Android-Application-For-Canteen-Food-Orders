@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:background="@drawable/login_bg">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:drawableStart="@drawable/ic_baseline_fastfood_96"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textStyle="italic|bold"
+        android:textSize="45dp"
+        android:layout_margin="16dp"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+
+        android:textColorHint="@color/purple_500"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <EditText
+            android:id="@+id/user_name_et"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="Enter Name "
+            android:shadowColor="#FFFFFF"
+            android:text=""
+            android:textColor="#000000"
+            android:textColorHint="@color/pinkishOrange"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/purple_500">
+
+            <EditText
+                android:id="@+id/ccode"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:inputType="text"
+                android:shadowColor="#FFFFFF"
+                android:text="+91"
+                android:textColor="#000000"
+                android:background="@color/white"
+                android:textColorHint="@color/purple_500"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+
+            android:textColorHint="@color/purple_500"
+            android:layout_marginRight="10dp">
+
+            <EditText
+                android:id="@+id/phoneNo"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:hint="Enter Phone "
+                android:inputType="number"
+                android:shadowColor="#FFFFFF"
+                android:text=""
+                android:textColor="#000000"
+                android:textColorHint="@color/purple_500" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/sendCode"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/rounded_corners"
+        android:onClick="sendCode"
+        android:text="Get Verification Code"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+
+</LinearLayout>
+
+

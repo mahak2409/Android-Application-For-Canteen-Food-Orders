@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/login_bg">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:drawableStart="@drawable/ic_baseline_fastfood_96"
+        android:gravity="center"
+        android:text="Insta-Eats"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="italic|bold"
+        android:textSize="45dp"
+        android:layout_margin="16dp" />
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="64dp">
+
+        <Button
+            android:id="@+id/orderFoodButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:backgroundTint="@color/pinkishOrange"
+            android:text="Order Food"
+            android:textSize="25dp"
+            android:layout_gravity="center_vertical"/>
+
+        <Button
+            android:id="@+id/myOrdersButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="Order History"
+            android:textSize="25dp"
+            android:layout_gravity="center_vertical"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="64dp">
+
+    <Button
+        android:id="@+id/signOutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:padding="15dp"
+        android:text="Log Out"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/buyPremiuimButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:padding="15dp"
+        android:layout_marginLeft="10dp"
+        android:text="Buy Premium"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<Button-->
+    <!--    android:id="@+id/button"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:text="Button1"-->
+    <!--    android:layout_weight="1"-->
+    <!--    android:padding="30dp"-->
+    <!--    android:layout_margin="20dp"/>-->
+
+
+
+    <!--<Button-->
+    <!--    android:id="@+id/button2"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:text="Button2"-->
+    <!--    android:layout_weight="1"-->
+    <!--    android:padding="30dp"-->
+    <!--    android:layout_margin="20dp"/>-->
+
+    <!--</LinearLayout>-->
